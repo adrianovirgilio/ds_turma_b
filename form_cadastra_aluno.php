@@ -18,8 +18,8 @@
         </div>
         
         <div id="corpo">
-        	<form action="#" method="get">
-            
+        <fieldset>
+        	<form action="#" method="get">            
      		<!-- Select que vai buscar as turma disponíveis para cadastro-->
             <label>Seleciona o código de uma turma:</label>
             <select name="turma" required>
@@ -34,12 +34,13 @@
             <!-- fim do select -->                
             	<p><input type="submit" name="cadastrar" value="Cadastrar Aluno"> </p>        
             
-            </form>         
+            </form>
+           </fieldset>         
         </div>
         
         <div id="rodape">
         </div>
     
-    </div>
+    </div><!-- Fim da div todoconteudo -->
 </body>
 </html>

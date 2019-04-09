@@ -38,12 +38,25 @@ else
     <div id="menu">    
     </div>
     
-<div id="corpo">  
- <!--Criando formulário -->  	
- <form action="#" method="get">
- <p><label>Data início:</label> </p>
- <p><input type="date" name="data_inicio"></p>
- <p><input type="submit" value="Cadastrar" id="gravar"	name="cadastrar" ></p></form>   
+    <div id="corpo">  
+     <!--Criando formulário -->  
+     <fieldset>	
+         <form action="#" method="get">
+         <p><label>Data início:</label> </p>
+         <p><input type="date" name="data_inicio"></p>
+         
+         <p><label>Data término:</label> </p>
+         <p><input type="date" name="data_termino"></p>
+         
+         <p><label>Horário de início:</label> </p>
+         <p><input type="time" name="hora_inicio"></p>
+         
+         <p><label>Horário de término:</label> </p>
+         <p><input type="time" name="hora_termino"></p>
+         
+         <p><input type="submit" value="Cadastrar Turma" name="cadastrar" ></p>
+         </form> 
+     </fieldset>  
     </div>
     
     <div id="rodape">
