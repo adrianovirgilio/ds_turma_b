@@ -24,7 +24,6 @@ if((!isset($_SESSION['login']) == true)
 <meta charset="utf-8">
 <title>Página Principal</title>
 <link href="css/estilo.css" rel="stylesheet" type="text/css">
-
 <link href="css/estilo_menu.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -36,8 +35,7 @@ if((!isset($_SESSION['login']) == true)
         
         <div id="menu">
           <ul>
-            <li><a href="#">Home</a></li>
-           
+            <li><a href="#">Home</a></li>           
             <li class="dropdown">
                 <a href="javascript:void(0)" 
                      class="dropbtn">Consultar</a>
@@ -53,7 +51,7 @@ if((!isset($_SESSION['login']) == true)
                      class="dropbtn">Cadastrar</a>
                 <div class="dropdown-content">
                   <a href="#">Aluno</a>
-                  <a href="#">Professor</a>
+                  <a href="form_cadastra_professor.php">Professor</a>
                   <a href="#">Turma</a>
                 </div>
        </li>
